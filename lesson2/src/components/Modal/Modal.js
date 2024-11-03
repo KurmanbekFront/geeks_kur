@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './Modal.module.scss'
 import Input from '../Input/Input'
+import Button from '../Button'
 
 
 const Modal = ({children, handleShow, name, handleInput}) => {
@@ -8,7 +9,8 @@ const Modal = ({children, handleShow, name, handleInput}) => {
         <div>
             <div className={classes.wrapper}></div>
             <div className={classes.content}>
-                <button onClick={() => handleShow(name)}>Close</button>
+                <Button handleShow={() => handleShow(name)} name={"Close"}/>
+                {/* <button onClick={() => handleShow(name)}>Close</button> */}
                 <Input placeholder={'Введите текст'} action={handleInput}/>
                 {children}
             </div>
