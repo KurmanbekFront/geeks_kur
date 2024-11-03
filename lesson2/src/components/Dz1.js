@@ -1,10 +1,10 @@
 import React from "react"
 
 
-const DzComp = ({name}) => {
+const Dz1 = ({name}) => {
     return (
         <h1>{name}</h1>
     )
 }
 
-export default DzComp
+export default Dz1
