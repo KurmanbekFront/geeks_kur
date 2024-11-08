@@ -52,7 +52,10 @@ const TodoPage = () => {
   }
 
   const handleDelete = (id) => {
-    
+    let updateList = todoList.filter((todo) => {
+      return todo.id !== id
+    })
+    setTodoList([...updateList])
   }
     return (
         <div>

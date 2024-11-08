@@ -11,3 +11,13 @@
         gap: 10px;
     }
 }
+
+.green_Bgc {
+    background-color: green;
+}
+
+.text_line {
+    > p, button {
+        text-decoration: line-through;     
+    }
+}
