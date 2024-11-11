@@ -21,11 +21,13 @@ const Todo = ({todo, handleDone, handleDelete, handleEdit, setCurrentId, isEdit}
         {
             isEdit && <div className={classes.li}>
             <input type="text" value={inputValue} onChange={(event) => setInputValue(event.target.value)}/>
+            {/* Закрытие инпута*/}
             <Button name={"Save"} color={"primary"} handleShow={() => {
                 handleEdit({...todo, title: inputValue})
                 setCurrentId(null)
             }
             }/>
+            {/* Закрытие без сохранения изменений */}
             <Button name={"Cancel"} color={"error"} handleShow={() => {
                 setInputValue(todo.title)
                 setCurrentId(null)
