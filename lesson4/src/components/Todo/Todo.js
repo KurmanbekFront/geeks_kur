@@ -4,8 +4,6 @@ import Button from "../button/Button";
 const Todo = ({todo, handleDone, handleDelete, handleEdit, setCurrentId, isEdit}) => {
 
     const [inputValue, setInputValue] = useState(todo.title)
-    console.log(inputValue);
-    
     return (
         <>
         <li className={`${classes.li} ${todo.completed ? classes.green_Bgc : ""}`}>
@@ -23,9 +21,16 @@ const Todo = ({todo, handleDone, handleDelete, handleEdit, setCurrentId, isEdit}
         {
             isEdit && <div className={classes.li}>
             <input type="text" value={inputValue} onChange={(event) => setInputValue(event.target.value)}/>
-            <Button name={"Save"} color={"primary"} handleShow={() => handleEdit({...todo, title: inputValue})}/>
-            <Button name={"Cancel"} color={"error"} handleShow={() => {}}/>
-        </div>
+            <Button name={"Save"} color={"primary"} handleShow={() => {
+                handleEdit({...todo, title: inputValue})
+                setCurrentId(null)
+            }
+            }/>
+            <Button name={"Cancel"} color={"error"} handleShow={() => {
+                setInputValue(todo.title)
+                setCurrentId(null)
+            }}/>
+            </div>
         }
         </>
     )

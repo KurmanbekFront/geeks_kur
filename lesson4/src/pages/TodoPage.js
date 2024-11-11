@@ -61,8 +61,6 @@ const TodoPage = () => {
       name: "Kurman"
     }))
   }, [])
-
-  console.log(JSON.parse(localStorage.getItem("user")).id);
   useEffect(() => {
     const myLocalStorage = JSON.parse(localStorage.getItem('todo'))
     if (myLocalStorage === null) {
