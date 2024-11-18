@@ -1,9 +1,10 @@
 import './App.css';
-import MainPage from './pages/MainPage';
+// import MainPage from './pages/MainPage';
 // import PokemonPage from './pages/pokemonPage/PokemonPage';
-import TodoPage from './pages/TodoPage';
-import UserPage from './pages/userPage/UserPage';
-import FormPage from './pages/formPage/FormPage';
+// import TodoPage from './pages/TodoPage';
+// import UserPage from './pages/userPage/UserPage';
+// import FormPage from './pages/formPage/FormPage';
+import RegisterPage from './pages/registerPage/RegisterPage';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <TodoPage/> */}
       {/* <UserPage /> */}
       {/* <PokemonPage/> */}
-      <FormPage/>
+      {/* <FormPage/> */}
+      <RegisterPage />
     </div>
   );
 }
