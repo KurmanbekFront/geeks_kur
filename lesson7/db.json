@@ -1,0 +1,117 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 2
+    },
+    {
+      "id": "3",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "4",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "6",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "7",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "8",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "9",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "10",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "11",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "12",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "13",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "14",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "15",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    }
+  ],
+  "group": [
+    {
+      "id": "1",
+      "group": "BiLZIm(dot)-1-22"
+    }
+  ],
+  "user": [
+    {
+      "name": "dereer",
+      "email": "wefwef@eefwef.uef",
+      "password": "wef",
+      "re-password": "wef"
+    },
+    {
+      "id": "2a19",
+      "name": "esaa",
+      "email": "trgroup175@gmail.com",
+      "password": "2111111",
+      "re_password": "2111111"
+    },
+    {
+      "id": "b2ac",
+      "name": "user",
+      "email": "xaspew@gmail.com",
+      "password": "2111111",
+      "re_password": "2111111"
+    },
+    {
+      "id": "ac30",
+      "name": "dddddddddddd",
+      "email": "ddd@gmail.com",
+      "password": "2111111",
+      "re_password": "2111111"
+    }
+  ]
+}

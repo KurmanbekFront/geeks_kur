@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 30px;
+
+  .block {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 600px;
+    height: 680px;
+
+    h1 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%;
+      text-align: center;
+      padding: 30px 0 37px;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      align-items: center;
+
+      .btn {
+		padding-top: 10px;
+        button {
+          background: #db00ff;
+          border-radius: 11px;
+          padding: 0px 7px;
+          width: 500px;
+          height: 56px;
+          font-family: "Roboto", sans-serif;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 150%;
+          text-align: center;
+          color: #fff;
+        }
+      }
+
+      .input_form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 15px;
+
+        input {
+          border: 1px solid #fff;
+          border-radius: 15px;
+          padding: 0px 20px;
+          width: 500px;
+          height: 50px;
+          background-color: transparent;
+		  color: white;
+        }
+        input::placeholder {
+          font-family: "Inter", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+          color: #a0aec0;
+        }
+
+		input[aria-invalid="true"] {
+			border-color: red;
+		}
+
+        label {
+          font-family: "Roboto", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 140%;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
