@@ -1,0 +1,130 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 2
+    },
+    {
+      "id": "3",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "4",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "6",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "7",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "8",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "9",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "10",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "11",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "12",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "13",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "14",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    },
+    {
+      "id": "15",
+      "surname": "uulu",
+      "name": "kurman",
+      "groupId": 4
+    }
+  ],
+  "group": [
+    {
+      "id": "1",
+      "group": "BiLZIm(dot)-1-22"
+    }
+  ],
+  "user": [
+    {
+      "name": "dereer",
+      "email": "jddffdss@eefwef.uef",
+      "password": "wef",
+      "re-password": "wef",
+      "id": "5b7b"
+    },
+    {
+      "id": "2a19",
+      "name": "esaa",
+      "email": "grdsff@gmail.com",
+      "password": "2111111",
+      "re_password": "2111111"
+    },
+    {
+      "id": "b2ac",
+      "name": "user",
+      "email": "wqqwss@gmail.com",
+      "password": "2111111",
+      "re_password": "2111111"
+    },
+    {
+      "id": "ac30",
+      "name": "dddddddddddd",
+      "email": "grffgh@gmail.com",
+      "password": "2111111",
+      "re_password": "2111111"
+    }
+  ],
+  "todo": [
+    {
+      "id": "1",
+      "title": "1111111",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "222222222222",
+      "completed": false
+    }
+  ]
+}

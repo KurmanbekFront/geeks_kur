@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+
+  button {
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px white solid;
+    padding: 10px;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+  }
+  .pageCount {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.todo_pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
